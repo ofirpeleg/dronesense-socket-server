@@ -10,7 +10,7 @@ wss.on("connection", function connection(ws) {
 const generateRandomData = () => {
   // Generate random temperature between 20 and 25
   const temp = (Math.random() * 5 + 20).toFixed(2);
-  // Generate random humidity between 70 and 80
+  // Generate random humidity between 60 and 70
   const humidity = (Math.random() * 10 + 60).toFixed(2);
   // Generate random accelerometer data between -1 and 1
   const accelX = (Math.random() * 2 - 1).toFixed(2);  
