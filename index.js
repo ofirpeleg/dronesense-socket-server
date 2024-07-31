@@ -11,11 +11,11 @@ const generateRandomData = () => {
   // Generate random temperature between 20 and 25
   const temp = (Math.random() * 5 + 20).toFixed(2);
   // Generate random humidity between 70 and 80
-  const humidity = (Math.random() * 10 + 70).toFixed(2);
-  // Generate random accelerometer data
-  const accelX = (Math.random() * 2 - 1).toFixed(2); // random value between -1 and 1
-  const accelY = (Math.random() * 2 - 1).toFixed(2); // random value between -1 and 1
-  const accelZ = (Math.random() * 2 - 1).toFixed(2); // random value between -1 and 1
+  const humidity = (Math.random() * 10 + 60).toFixed(2);
+  // Generate random accelerometer data between -1 and 1
+  const accelX = (Math.random() * 2 - 1).toFixed(2);  
+  const accelY = (Math.random() * 2 - 1).toFixed(2); 
+  const accelZ = (Math.random() * 2 - 1).toFixed(2); 
   // Generate GPS data
   const gpsStart = [32.09078593263337, 34.803569407555365];
   const gpsPoints = [
